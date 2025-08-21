@@ -1,0 +1,68 @@
+pwd
+ls
+mkdir Aug2025
+ls
+cd Aug2025
+pwd
+mkdir DESD DMC DAC KDAC DITISS DBDA
+ls
+cd DESD/
+pwd
+mkdir dir1 dir2 dir3
+ls
+mkdir -p d1/d2/d3
+ls
+ls d1
+pwd
+ls d1/d2
+ls d1/d2/d3
+ls
+touch file.txt
+ls
+touch file1.txt file2.txt
+ls
+cat file.txt 
+cat > demo01.c
+ls
+cat demo01.c 
+cat > demo01.c
+cat demo01.c 
+cat >> demo01.c
+cat demo01.c 
+ls
+cat demo01.c 
+cp demo01.c demo02.c 
+ls
+cat demo02.c 
+cat > file.txt
+cat file.txt 
+cp demo01.c file.txt 
+cat file.txt 
+ls
+cp file.txt dir1
+ls
+ls dir1
+cp dir1 copy
+cp -r dir1 copy
+ls
+ls d1
+cp -r dir1 d1
+ls d1
+ls
+mv file.txt move.txt
+ls
+mv file1.txt dir1
+ls
+ls dir1
+mv dir1 move
+ls
+rm file2.txt 
+ls
+mkdir dir3
+rmdir dir3
+ls
+rmdir dir2
+ls
+rmdir d1
+rm -r d1
+history
