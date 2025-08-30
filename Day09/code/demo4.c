@@ -1,4 +1,45 @@
 #include<stdio.h>
+/*
+//Local/ Auto variable
+/*
+   Storage classes:
+   	- tells about two things of variables
+		- life - existence of variable in memory
+		- scope - where we can access that varible
+	- Block is a number of statements enclosed in curly braces
+
+	- There are 4 storage classes in C
+		1. Auto/local
+			keyword - auto
+			storage - stack
+			default value - garbage
+			life - block
+			scope - block
+		- precedence is always given to a local variable
+		- if variable is not found then it is searched into its immediate outer block
+
+		2. Register
+			keyword - register
+			storage - cpu register
+			default value - garbage
+			life - block
+			scope - block
+
+		3. Global/extern
+			keyword - extern
+			storage - data section
+			default value - zero
+			life - program
+			scope - program
+
+		4. Static
+			keyword - static
+			storage - data section
+			default value - zero
+			life - program
+			scope - limited
+
+   */
 
 /*
     Topic: auto (local) variables
